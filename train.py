@@ -1,7 +1,5 @@
-import pandas as pd 
 from sklearn.datasets import make_regression
 from sklearn.linear_model import Lasso
-from sklearn.metrics import confusion_matrix
 import pickle
 import os
 

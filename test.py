@@ -1,7 +1,6 @@
 import pickle
 from sklearn.datasets import make_regression
 import json
-import pandas as pd
 
 model = pickle.load(open("models/model.pkl", "rb"))
 

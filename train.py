@@ -16,4 +16,4 @@ if not os.path.isdir("models/"):
 
 filename = 'models/model.pkl'
 pickle.dump(reg, open(filename, 'wb'))
-
+# checking the model is working

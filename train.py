@@ -1,5 +1,5 @@
 from sklearn.datasets import make_regression
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import Lasso
 import pickle
 import os
 

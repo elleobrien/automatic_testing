@@ -5,7 +5,8 @@ jobs:
     runs-on: [ubuntu-latest]
     container: docker://dvcorg/cml-py3:latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - uses: iterative/setup-tools@v1
       - name: sanity-check
         env:
           repo_token: ${{ secrets.GITHUB_TOKEN }}

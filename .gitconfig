@@ -1,0 +1,3 @@
+[credential]
+    helper = store
+    password = my_token
